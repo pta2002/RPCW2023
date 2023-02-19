@@ -1,0 +1,21 @@
+<manifesto>
+  <meta>
+    <título>Trabalho TPC1</título>
+    <data>2023-02-19</data>
+    <autor>
+      <nome>Pedro Tavares Alves</nome>
+      <id>A93272</id>
+      <gitlink>https://github.com/pta2002/RPCW2023</gitlink>
+    </autor>
+    <uc>RPCW2023</uc>
+  </meta>
+  <resumo>
+    <p>Neste trabalho foi criada uma pequena página HTML sobre a Hungria. Esta página foi baseada na página da <xref url="https://pt.wikipedia.org/wiki/Hungria">Wikipédia</xref>, e foi feita uma formatação básica utilizando tabelas e outras <i>tags</i> HTML.</p>
+    <p>Para além disso, foi completado o <i>script</i> desenvolvido na aula, que emite um ficheiro HTML de um mapa virtual com base numa descrição proveniente de um ficheiro em JSON.</p>
+  </resumo>
+  <resultados>
+    <resultado path="gera.py">Script para gerar mapa virtual</resultado>
+    <resultado path="mapa.html">Mapa gerado</resultado>
+    <resultado path="hungria.html">Página HTML sobre a Hungria</resultado>
+  </resultados>
+</manifesto>
