@@ -1,0 +1,21 @@
+<manifesto>
+  <meta>
+    <título>Trabalho TPC2</título>
+    <data>2023-02-26</data>
+    <autor>
+      <nome>Pedro Tavares Alves</nome>
+      <id>A93272</id>
+      <gitlink>https://github.com/pta2002/RPCW2023</gitlink>
+    </autor>
+    <uc>Representação e Processamento de Conhecimento na Web</uc>
+  </meta>
+  <resumo>
+    <p>Este trabalho tem duas fases, sendo a primeira a desconstrução do ficheiro <i>arq.xml</i> em vários ficheiros individuais para cada arqueossítio. Esta fase foi realizada através de um pequeno <i>script</i> python utilizando a biblioteca <b>BeautifulSoup</b> e <b>lxml</b>. De modo a gerar o <i>encoding</i> correto, foi necessário editar o ficheiro original para indicar o <i>encoding</i> <b>utf-8</b>, já que estava incorretamente indicado.</p>
+    <p>A segunda parte foi realizada utilizando um servidor HTTP escrito em NodeJS, que simplesmente lê o ficheiro do arqueossítio correspondente e o serve ao cliente.</p>
+  </resumo>
+  <resultados>
+    <resultado path="locais.py">Script para desconstruir o ficheiro principal</resultado>
+    <resultado path="arq1.xml">Arqueossítio 1</resultado>
+    <resultado path="server.js">Servidor nodejs que serve os resultados</resultado>
+  </resultados>
+</manifesto>
